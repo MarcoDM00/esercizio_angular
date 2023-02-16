@@ -1,0 +1,10 @@
+<app-nani *ngFor="let n of nani" [n]="n"></app-nani>
+
+<br><br><hr>
+
+<span [class]="propertyBinding">{{stringInterpolation}}</span>
+<br>
+<button (click)="stringInterpolation = stringInterpolation + 'a'">Aggiungi lettera</button>
+<br><br>
+<input type="text" [(ngModel)]="twoWayBinding">
+<p>{{twoWayBinding}}</p>
