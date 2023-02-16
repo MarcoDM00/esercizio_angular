@@ -10,7 +10,7 @@ export class AppComponent {
   nani:Nano[] = [
     new Nano("Cucciolo", 1),
     new Nano("Mammolo", 2),
-    new Nano("Cucciolo", 3),
+    new Nano("Dotto", 3),
     new Nano("Brontolo", 4),
     new Nano("Pisolo", 5),
     new Nano("Eolo", 6),
